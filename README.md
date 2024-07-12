@@ -47,9 +47,9 @@ git push origin main
 git stash -u
 ```
 
-## Merge
+## Checkout
 
 ```git
-// Merge from remote overwriting local.
-git merge -X theirs remote/branch_name
+// Checkout to remote branch and track.
+git checkout branch_name
 ```
